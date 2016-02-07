@@ -6,8 +6,7 @@ body {
   margin: 5em;
 }
 
-article, header, p {
-  text-align: center;
+article, header, p, ul, li {
   background-color: #FFF;
   padding: 0.5em;
 }
@@ -15,9 +14,20 @@ article, header, p {
 p {
   margin: 1em 0 0 0;
 }
-
+header {
+  text-align: center;
+}
 header h1, h4 {
   margin: 0.1em 0 0.1em 0;
+}
+
+ul {
+  list-style: none;
+}
+
+code {
+  color: red;
+  margin-left: 2em;  
 }
 
 .container {
