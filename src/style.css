@@ -1,0 +1,39 @@
+body {
+  background: url('bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: monospace;
+  margin: 5em;
+}
+
+article, header, p {
+  text-align: center;
+  background-color: #FFF;
+  padding: 0.5em;
+}
+
+p {
+  margin: 1em 0 0 0;
+}
+
+header h1, h4 {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(202, 202, 202, 0.5);
+  margin: 2.5em auto;
+  padding: 1em;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
