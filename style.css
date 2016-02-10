@@ -14,9 +14,11 @@ article, header, p, ul, li {
 p {
   margin: 1em 0 0 0;
 }
+
 header {
   text-align: center;
 }
+
 header h1, h4 {
   margin: 0.1em 0 0.1em 0;
 }
@@ -27,7 +29,6 @@ ul {
 
 code {
   color: red;
-  margin-left: 2em;  
 }
 
 .container {

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <title>john's blog zone</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section id="title" class="container cf">
+      <header>
+        <h1>John's Blog Zone</h1>
+        <a href="https://github.com/johnBartos">git</a>
+        -
+        <a href="https://www.linkedin.com/in/john-bartos-8b134ba8" >in</a>
+        -
+        <a href="mailto:jbartos7@gmail.com" >email</a>
+      </header>
+    </section>
+    <section id="posts">
+      <article id="refresh" class="container cf">
+        <header>
+          <h1 class="title">Site Refresh</h1>
+          <h4 class="date">February 07, 2015</h4>
+        </header>
+        <p>
+          Well I finally did it. I made a new blog without any frameworks or javascript. And it was fun. It's a stark contrast to my first blog ever which was built on the MEAN stack, had a 100 line grunt file, and way too many npm packages. That was a mistake, but in my defense it was primarily a learning exercies. It feels good to finally unplug it though. As much as I enjoy playing with the lastest frameworks (especially <code>React</code>), I found it refreshing to make things with plain old vanilla HTML/CSS. It was also rewarding to study the arcane and long-forgotten art of static web development. There's a lot of framework-agnostic knowledge within which will make you a better developer. As a bonus, I get to show off my rad photography skills.
+        </p>
+      </article>
+      <article id="style" class="container cf">
+        <header>
+          <h1 class="title">Gotta go fast(er)</h1>
+          <h4 class="date">December 29, 2015</h4>
+        </header>
+        <p>
+          Programming is also hard. Style is hard. Programming style? Doubly so. What's easy is to ignore style altogether and <i>Move Fast</i>™. But style is one of the most important aspects of writing good code - and it can make you go faster.
+          </br></br>
+          Simply put, style is the way code is presented. Indenting, whitespace, variable naming, bracketing, capitalization, and too much to worry about fall under this category. But the simple placement of characters is an oversimplification. A better definition is that style is the <i>intent</i> behind the way code is presented. Style is used to display code in such a way that it's readable, maintainable, and in some cases, more performant.
+          </br></br>
+          Luckily for you (and me), style is easily stolen. In fact, it's even encouraged! The linter is an invaluable tool to introduce and maintain style based on what a community of developers feel is correct. Linters vary in their degree of opinion and extremes at which they force their style upon you, and are even available for uncool languges like C#. Good linters can point out silly mistakes or help optimize code - ESLint will point out when you should make use of <code>const</code> (or when you can't), and reminds you when you've accidentally <code>for in</code>ed an object. Some linters like ReSharper will even refactor code for you across entire solutions. For Javascript, I use ESLint with Airbnb's styleguide and an additional guide made by a friend of mine. I used to use JSHint, but I recently switched because I wanted <i>more</i> style. For C#, ReSharper is bar none the best.
+          </br></br>
+          So how does style make you move fast? At first, it probably doesn't. Switching from JSHint to ESLint introduced 50+ errors across one of my smaller projects (and you shouldn't leave red squiggles alone). But adopting a good style gives your code consistency. Consistency gives you (or anyone reading your code) the ability to infer properties and behavior without having to refer back to initial declaration or scan line by line. Essentially, it gives you a mental code cache. With consistent names, you don't have to peck around for where the variable is <i>actually</i> declared to learn its access modifier. No more scrolling up and down to figure out what a module exports with consistent declaration location. When indentation is consistent, it's much easier to see what object another is encapsulated in. Even seemingly trivial things like whitespace before a bracket makes code more legible. Since programming 90% reading code (and 10% writing), having consistent code makes 90% of your job easier. So if you don't have style - get some 💈.
+        </p>
+      </article>
+    </section>
+    <article id="manhattanjs" class="container cf">
+      <header>
+        <h1 class="title">ManhattanJS</h1>
+        <h4 class="date">November 17, 2015</h4>
+      </header>
+      <p>
+        Last week was my first visit to the ManhattanJS meetup. And it was awesome. I've been to the AngularJS NYC meetup before but had a mixed experience. In a word, it was sterile - carefully prepared snacks, bouncers at the door, and people standing around awkwardly with hands in pocket. Everyone seemed to know everyone else (but me). The talk was interesting, but I left early.
+        </br></br>
+         But ManhattanJS was awesome. Beer, pizza, and a nice communal layout which made it easy to jump into different groups. Everyone was talking. There was music playing. It was <i>loud</i>. I got into discussions about how awesome Ember, microservice fetishes, and developer life in NYC. After the food, we shuffled over to the adjacent room for the main show - battledecks, followed by a tech talk and a 'passion' talk. For the unaware, battledecks is a game played by giving a presentation about a random set of powerpoint slides in front of an audience. I didn't participate but after a few beers I was wishing I had.
+        </br></br>
+         The next talk was about hypercard (Apple's 1998 edition of web technology), which humorously mocked the webdev trends with retro tech fads. Soon after was the tech talk. The topic was Mobiledoc, a new way of writing platform-agnostic markup with a bunch of cool features. And then came the 'passion talk'. Each event the organizers choose from a pool of members willing to give a talk about any topic they're passionate about. This event's talk was about YAF - young adult fiction. Animorphs, specifically, and how reading them helped her navigate emotional stress. And how Ellimist, who split into several pieces (each with a different function) when tricked into a black hole, was able to defeat Crayak with his newfound modular nature. Strength over intergalactic beasts - another great benefit of using microservices! Overall, ManhattanJS was a great experience. Next adventure - BrooklynJS!
+      </p>
+    </article>
+    <article id="uncubed" class="container cf">
+      <header>
+        <h1 class="title">Uncubed - A live blag</h1>
+        <h4 class="date">November 3, 2015</h4>
+      </header>
+        <ul>
+          <li>
+            10:00 - Arrival! Really excited to be here (again). The venue this year is much more segmented but it's quite nice. Still no Windows Phone app!
+          </li>
+          <li>
+            10:30 - Grabbed a free cold brew and headed upstairs to sit in on the Edge segments, which are more tailored for developers. Great talk by Namely CTO about hiring.I'm pretty hopped up on caffeine. Going to have a quick chat with her after the talk.
+          </li>
+          <li>
+            11:00 - Jet CTO is up, talking about microservices. They use a similar architecture to ours - microservices using a message bus/broker to communicate. Going to ask if they daisy chain services or are strict about using their bus for everything. Interesting point - they don't really do code reviews. Shoutout to YAGNI. F# as their main language is pretty sweet, definitely interested in that. No time for my question!
+          </li>
+          <li>
+            11:40 - Dropbox Product Designer is up. Only been working there 20 days! A lot of focus on product design.
+          </li>
+          <li>
+            11:40 - Had a quick chat with Jet CTO. Got a lot of good ideas about how to improve our microservice architecture. They try to be really strict about using their service bus and not doing one-to-one communication. Only do it if it's absolutely necessary. They also have multiple message brokers, which is a great idea. Something we kicked about internally but it'll be great to bring some authortative knowledge to the team. I'll have to look into Azure service buses also. He previously held a C# developer position at CitiGroup and covered a lot of the same ground we are! When I described our message broker he said his was almost identical - I was glad to hear that they made a successful system with the WCF netmsmq bindings. I think he liked my system for automatically generating WCF bindings without config files, since that was a large issue for them. I also asked him about their abandoment of code reviews. They used to have them, dropped them while getting their team on track (moving quickly?), but are bringing them back soon. We're definitely on the right track at DataOnline.
+          </li>
+          <li>
+            12:00 - Market yourself to your dream employer. I'm hungry but really want to listen in on this. Showcase yourself online - check (but does anyone actually read this?). Looks like I need to get my LinkedIn in order. Interesting point for learning about a company - read their code. He mentioned Medium, which I've been seeing a lot of on HN. I'll have to look into it. He keeps emphasizing the importance of a personal site. Understand what your dream company wants (100000 years of experience, probably).
+          </li>
+          <li>
+            13:00 - The floor begins!
+          </li>
+          <li>
+            15:20 - Quick break from the madness. Lots of good stuff so far and the layout is better so less crowding. This grapefruit beer is pretty good.
+          </li>
+          <li>
+            17:00 - Heading over to the front desk for my volunteer shift. Free tshirt! Takes a while for me to find a size medium. Trying to look busy while somebody tells me what to do. Looks like I'll be peeling vinyl stickers for a while.
+          </li>
+          <li>
+              19:00 - I'm free to go, and more than ready to sleep. The guy running the Batch booth gave us some free soap for our help. Smells delicious.
+          </li>
+        </ul>
+    </article>
+  </section>
+  </body>
+</html>
